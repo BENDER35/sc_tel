@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+config.json
+*.session
+*.session-journal
+
+# Logs
+*.log
+
+# Search results / exports
+*.csv
+res_*.csv
+resultados_*.csv
+
+# Release artifacts
+sc_tel_release.zip
+dist/
+build/
+*.egg-info/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
